@@ -1,0 +1,11 @@
+excludes:
+    paths:
+    - pattern: ".ort/**"
+      reason: "OTHER"
+      comment: "This directory is used for ORT config and output"
+    - pattern: ".tdosca/**"
+      reason: "OTHER"
+      comment: "Contains test case information"
+curations:
+    declared_licenses:
+    - "MIT License"
